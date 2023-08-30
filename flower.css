@@ -3,7 +3,7 @@
 /* banner design  */
 .banner-bg-color{
     display: flex;
-    background-color: #d898a6;
+    background-color: #e7ced3;
     align-items: center;
     /* width: 1920px;
     height: 850px; */
@@ -14,7 +14,7 @@
 }
 .banner-header{
     font-size: 75px;
-    padding-bottom: 30px;
+    /* padding-bottom: 0px; */
 
 }
 .banner-left{
@@ -30,24 +30,42 @@
     padding-right: 200px; 
     padding-bottom: 0px;
 }
+.btn-primary{
 
-.section-2{
+    background-color: #E55473;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding-left: 40px;
+    padding-right:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+/* .section-2{
     background-color: darkgray;
     display: flex;
     justify-content: space-evenly;
     text-decoration: center;
    margin-left: 150px;
    margin-right: 150px;
+   margin-bottom: 30px;
+   margin-top: 30px;
 
 
 
-}
+
+} */
 .common-box{
     align-items: center;
-    text-decoration: center;
+    text-align: center;
+    margin: 50px;
 }
 .section-1{
     text-align: center;
+}
+.featured{
+    font-size: 40px;
 }
 .optional-1{
    display: flex;
@@ -59,4 +77,77 @@
 .box-styel{
     background-color: aliceblue;
     border-radius:100px;
+}
+.section-3{
+    display: flex;
+    background-color: rgb(212, 206, 206);
+    justify-content: space-around;
+}
+.section-left-side{
+    text-decoration: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-left: 50px;
+}
+.instagram{
+    font-size: 45px;
+}
+.images{
+    align-items: center;
+    margin-left: 200px;
+    justify-content: space-around;
+}
+.scetion-4{
+   text-align: center;
+   padding: 70px; 
+    
+
+}
+.final-scetion{
+    text-align: center;
+    background-image: url('./Flower\ Asset/Rectangle 9.png');
+    height: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.email-input {
+    margin: 50px;
+    padding: 10px;
+    
+    border-radius: 5px;
+    width: 300px;}
+
+.sub-section{
+
+    padding: 100px;
+}
+.footer-side{
+    background-color: black;
+    text-align: center;
+    padding-left: 240px;
+    padding-right:240px;
+    padding-top: 128px;
+    padding-bottom: 128px ;
+    
+}
+.flower{
+    color: #E55473;
+}
+.shop {
+    color: #fff;
+
+}
+
+
+
+.last-word {
+    color: #ffff;
+    
+}
+.copyright{
+    color: gray;
 }
