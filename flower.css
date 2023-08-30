@@ -42,7 +42,7 @@
     padding-bottom: 20px;
 
 }
-/* .section-2{
+ .section-2{
     background-color: darkgray;
     display: flex;
     justify-content: space-evenly;
@@ -55,7 +55,7 @@
 
 
 
-} */
+} 
 .common-box{
     align-items: center;
     text-align: center;
@@ -68,16 +68,32 @@
     font-size: 40px;
 }
 .optional-1{
-   display: flex;
+   display: flex; 
 
-    padding-left: 150px;
-    padding-right: 150px;
-    justify-content: space-around;
+     padding-left: 150px;
+    padding-right: 150px; 
+    padding-bottom: 0px; 
+     justify-content: space-evenly; 
+     
+
 }
 .box-styel{
     background-color: aliceblue;
-    border-radius:100px;
+    
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    overflow: hidden;
+    margin-bottom: 0px;
+    
 }
+ .under-line{
+    display:flex;
+    text-decoration: underline;
+     justify-content: space-evenly;
+ }
+
 .section-3{
     display: flex;
     background-color: rgb(212, 206, 206);
@@ -133,6 +149,9 @@
     padding-top: 128px;
     padding-bottom: 128px ;
     
+}
+.flower-shop{
+    font-size: 50px;
 }
 .flower{
     color: #E55473;
