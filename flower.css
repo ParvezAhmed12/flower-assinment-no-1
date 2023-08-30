@@ -30,15 +30,33 @@
     padding-right: 200px; 
     padding-bottom: 0px;
 }
-.section 2{
-    background-color:#BEE49D;
-    padding-left:240px;
-    padding-right:240px;
-    disply:flex;
-    
+
+.section-2{
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: center;
+   margin-left: 150px;
+   margin-right: 150px;
+
 
 
 }
+.common-box{
+    align-items: center;
+    text-decoration: center;
+}
 .section-1{
     text-align: center;
+}
+.optional-1{
+   display: flex;
+
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-around;
+}
+.box-styel{
+    background-color: aliceblue;
+    border-radius:100px;
 }
